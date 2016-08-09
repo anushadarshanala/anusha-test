@@ -15,7 +15,7 @@ public class SimpleDotCom {
 	
 	public void checkYourself() throws NumberFormatException, IOException
 	{
-		String result="misses";
+		String result="misses2";
 		for(int cell:locationCells )
 		{
 			int guess=  Integer.parseInt( helper.getUserInput() );
